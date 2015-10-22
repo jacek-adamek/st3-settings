@@ -1,0 +1,16 @@
+{
+  "cmd": ["mix", "test", "$file"],
+  "working_dir": "${folder}",
+  "selector": "source.elixir",
+  "variants": [
+  {
+   "cmd": ["mix", "deps.get"],
+   "name": "mix deps.get",
+   "selector": "source.elixir"
+  },
+  {
+    "cmd": ["mix", "test"],
+    "name": "Run"
+  }
+  ]
+}

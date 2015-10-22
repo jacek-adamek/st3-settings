@@ -1,0 +1,18 @@
+{
+  "default_extend_env": {
+    "PATH": "{HOME}/.rvm/bin/:/usr/local/bin/:{PATH}"
+  },
+  "repl_view_settings": {
+    "translate_tabs_to_spaces": false,
+    "auto_indent": false,
+    "smart_indent": false,
+    "spell_check": false,
+    "indent_subsequent_lines": false,
+    "detect_indentation": false,
+    "auto_complete": true,
+    "line_numbers": false,
+    "gutter": false,
+    "word_wrap": true
+  },
+  "show_transferred_text": false
+}

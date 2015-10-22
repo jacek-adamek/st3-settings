@@ -1,0 +1,7 @@
+{  
+  "check_for_rvm": true,
+  "run_rspec_command": "bin/rspec {relative_path}",
+  "run_single_rspec_command": "bin/rspec {relative_path}:{line_number}",
+  "run_ruby_unit_command": "bin/rake test {relative_path}",
+  "run_single_ruby_unit_command": "bin/rake test {relative_path} {test_name}"
+}

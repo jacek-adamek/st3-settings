@@ -1,0 +1,43 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AlignTab",
+		"All Autocomplete",
+		"Babel",
+		"Better CoffeeScript",
+		"BracketHighlighter",
+		"Cucumber",
+		"Djaneiro",
+		"Elixir",
+		"Enhanced Clojure",
+		"F#",
+		"FindKeyConflicts",
+		"Git",
+		"GitGutter",
+		"Haml",
+		"Handlebars",
+		"HTML5",
+		"HTMLAttributes",
+		"jQuery",
+		"JSX",
+		"lispindent",
+		"Markdown Preview",
+		"Package Control",
+		"paredit",
+		"PostgreSQL Syntax Highlighting",
+		"Rails Migrations List",
+		"RSpec",
+		"Ruby on Rails snippets",
+		"Ruby Slim",
+		"RubyTest",
+		"Sass",
+		"SCSS",
+		"SideBarEnhancements",
+		"SublimeREPL"
+	]
+}

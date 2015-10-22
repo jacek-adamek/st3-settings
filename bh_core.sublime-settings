@@ -1,0 +1,23 @@
+{
+  "bracket_outside_adjacent": true,
+
+  // Define region highlight styles
+  "bracket_styles": {
+    // User defined region styles
+    "curly": {
+      "icon": "curly_bracket",
+      "color": "brackethighlighter.curly",
+      "style": "solid"
+    },
+    "round": {
+      "icon": "round_bracket",
+      "color": "brackethighlighter.round",
+      "style": "solid"
+    },
+    "square": {
+      "icon": "square_bracket",
+      "color": "brackethighlighter.square",
+      "style": "solid"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+	"binary_file_patterns":
+	[
+		"dist/*",
+		"deps/*",
+		"node_modules/*",
+		"tmp/*",
+		"deps/*",
+		"jvm/*",
+		"target/*",
+		"_build/*",
+		".rebar/*",
+		"ebin/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
+	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "DejaVu Sans Mono",
+	"font_options":
+	[
+	],
+	"font_size": 13.0,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"match_brackets": false,
+	"rulers":
+	[
+		100
+	],
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
+}
