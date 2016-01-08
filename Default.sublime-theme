@@ -10,5 +10,10 @@
   {
     "class": "icon_folder_loading",
     "content_margin": [0,0]
+  },
+  {
+    "class": "sidebar_label",
+    "color": [0, 0, 0],
+    "font.size": 12
   }
 ]
