@@ -27,6 +27,7 @@
 	],
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
 	"font_face": "DejaVu Sans Mono",
 	"font_options":
 	[
