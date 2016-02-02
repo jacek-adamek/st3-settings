@@ -24,7 +24,8 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"priv/static/*"
+		"priv/static/*",
+		"coverage/*"
 	],
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
