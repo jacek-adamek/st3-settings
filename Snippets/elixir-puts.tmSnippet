@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>test "$1" do
-  $0
-end</string>
+  <string>IO.puts $0</string>
   <key>name</key>
-  <string>test</string>
+  <string>puts</string>
   <key>scope</key>
   <string>source.elixir</string>
   <key>tabTrigger</key>
-  <string>test</string>
+  <string>pt</string>
 </dict>
 </plist>

@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>test "$1" do
-  $0
-end</string>
+  <string>{:error, ${1:reason}} $0</string>
   <key>name</key>
-  <string>test</string>
+  <string>error tuple</string>
   <key>scope</key>
   <string>source.elixir</string>
   <key>tabTrigger</key>
-  <string>test</string>
+  <string>error</string>
 </dict>
 </plist>

@@ -3,14 +3,15 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>test "$1" do
+  <string>&lt;%= for ${1:item} &lt;- ${2:items} do %&gt;
   $0
-end</string>
+&lt;% end %&gt;
+</string>
   <key>name</key>
-  <string>test</string>
+  <string>for</string>
   <key>scope</key>
-  <string>source.elixir</string>
+  <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>test</string>
+  <string>for</string>
 </dict>
 </plist>
