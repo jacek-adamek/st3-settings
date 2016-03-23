@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>test "$1" do
-  $0
-end</string>
+  <string>&lt;%= render $1, "$2.html"$0 %&gt;</string>
   <key>name</key>
-  <string>test</string>
+  <string>render module template</string>
   <key>scope</key>
-  <string>source.elixir</string>
+  <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>test</string>
+  <string>rdm</string>
 </dict>
 </plist>
