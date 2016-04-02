@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>&lt;%= for ${1:item} &lt;- ${2:items} do %&gt;
-  $0
-&lt;% end %&gt;</string>
+  <string>&lt;%= textarea ${1:form}, ${2:field}$0 %&gt;</string>
   <key>name</key>
-  <string>for</string>
+  <string>textarea</string>
   <key>scope</key>
   <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>efo</string>
+  <string>eta</string>
 </dict>
 </plist>

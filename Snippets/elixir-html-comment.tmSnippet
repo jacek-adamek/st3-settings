@@ -9,6 +9,6 @@
   <key>scope</key>
   <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>pc</string>
+  <string>ec</string>
 </dict>
 </plist>

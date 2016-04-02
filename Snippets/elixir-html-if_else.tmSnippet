@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>&lt;%= for ${1:item} &lt;- ${2:items} do %&gt;
+  <string>&lt;%= if $1 do %&gt;
+  $2
+&lt;% else %&gt;
   $0
 &lt;% end %&gt;</string>
   <key>name</key>
-  <string>for</string>
+  <string>if else</string>
   <key>scope</key>
   <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>efo</string>
+  <string>eife</string>
 </dict>
 </plist>

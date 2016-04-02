@@ -3,14 +3,12 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>&lt;%= for ${1:item} &lt;- ${2:items} do %&gt;
-  $0
-&lt;% end %&gt;</string>
+  <string>&lt;%= link "${1:text}", to: ${2:path}$0 %&gt;</string>
   <key>name</key>
-  <string>for</string>
+  <string>link to</string>
   <key>scope</key>
   <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>efo</string>
+  <string>elt</string>
 </dict>
 </plist>

@@ -4,8 +4,6 @@
 <dict>
   <key>content</key>
   <string>&lt;%= if $1 do %&gt;
-  $2
-&lt;% else %&gt;
   $0
 &lt;% end %&gt;</string>
   <key>name</key>
@@ -13,6 +11,6 @@
   <key>scope</key>
   <string>text.html.elixir</string>
   <key>tabTrigger</key>
-  <string>if</string>
+  <string>eif</string>
 </dict>
 </plist>
