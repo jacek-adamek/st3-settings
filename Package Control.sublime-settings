@@ -25,6 +25,7 @@
 		"HTML5",
 		"HTMLAttributes",
 		"jQuery",
+		"JSX",
 		"lispindent",
 		"Markdown Preview",
 		"Package Control",
@@ -40,5 +41,9 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeREPL"
+	],
+	"repositories":
+	[
+		"https://github.com/jacek-adamek/JSX"
 	]
 }
