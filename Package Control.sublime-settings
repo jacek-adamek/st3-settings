@@ -8,6 +8,8 @@
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
+		"Babel",
+		"Babel Snippets",
 		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Cucumber",
@@ -25,7 +27,6 @@
 		"HTML5",
 		"HTMLAttributes",
 		"jQuery",
-		"JSX",
 		"lispindent",
 		"Markdown Preview",
 		"Package Control",
@@ -41,9 +42,5 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeREPL"
-	],
-	"repositories":
-	[
-		"https://github.com/jacek-adamek/JSX"
 	]
 }
