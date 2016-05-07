@@ -1,7 +1,8 @@
 {
-  "color_scheme": "Packages/Color Themes/Oceanic Next.tmTheme",
+	"color_scheme": "Packages/Color Themes/Oceanic Next.tmTheme",
 	"extensions":
 	[
-		"es6"
+		"es6",
+		"js"
 	]
 }
