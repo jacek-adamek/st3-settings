@@ -3,14 +3,29 @@
   "working_dir": "${folder}",
   "selector": "source.elixir",
   "variants": [
-  {
-   "cmd": ["mix", "deps.get"],
-   "name": "mix deps.get",
-   "selector": "source.elixir"
-  },
-  {
-    "cmd": ["mix", "test"],
-    "name": "Run"
-  }
+    {
+      "cmd": ["mix", "compile"],
+      "name": "mix compile"
+    },
+    {
+     "cmd": ["mix", "deps.compile"],
+     "name": "mix deps.compile"
+    },
+    {
+     "cmd": ["mix", "deps.get"],
+     "name": "mix deps.get"
+    },
+    {
+     "cmd": ["mix", "ecto.migrate"],
+     "name": "mix ecto.migrate"
+    },
+    {
+      "cmd": ["mix", "test"],
+      "name": "mix test (all)"
+    },
+    {
+      "cmd": ["mix", "test", "$file"],
+      "name": "mix test (file)"
+    }
   ]
 }
