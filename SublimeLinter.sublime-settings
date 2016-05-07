@@ -7,15 +7,6 @@
         "gutter_theme_excludes": [],
         "lint_mode": "load/save",
         "linters": {
-            "elixirc": {
-                "@disable": false,
-                "args": [],
-                "chdir": "${project}",
-                "excludes": [],
-                "include_dirs": [],
-                "mix_project": true,
-                "pa": []
-            },
             "eslint": {
                 "@disable": false,
                 "args": [],

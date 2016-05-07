@@ -42,7 +42,6 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
-		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-rubocop",
 		"SublimeREPL"
