@@ -10,4 +10,4 @@ RubyTest.last-run
 .SublimeREPLHistory/
 *.cache
 .DS_Store
-
+SublimeLinter/
