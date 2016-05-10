@@ -29,7 +29,7 @@
 		"tmp/*"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Railscasts (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"font_face": "DejaVu Sans Mono",
@@ -38,6 +38,7 @@
 	],
 	"font_size": 15.0,
 	"highlight_line": true,
+	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Vintage"
@@ -45,6 +46,7 @@
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
 	"match_brackets": false,
+	"remember_open_files": false,
 	"rulers":
 	[
 		100
