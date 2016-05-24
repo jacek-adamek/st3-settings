@@ -9,7 +9,7 @@
     "C++"                   : ["cpp", "net", "boost", "qt", "cvcpp", "cocos2dx", "c", "manpages"],
     "C++11"                 : ["cpp", "net", "boost", "qt", "cvcpp", "cocos2dx", "c", "manpages"],
     "Clojure"               : ["clojure"],
-    "CoffeeScript"          : ["coffee"],
+    "CoffeeScript"          : ["coffee", "javascript", "underscore", "jquery", "jqueryui", "angularjs"],
     "ColdFusion"            : ["cf"],
     "CSS"                   : ["css", "bootstrap", "foundation", "less", "awesome", "cordova", "phonegap"],
     "Dart"                  : ["dartlang", "polymerdart", "angulardart"],
