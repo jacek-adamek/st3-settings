@@ -1,6 +1,33 @@
 // Clojure unmatching of single quotes
 [
   {
+    "keys": ["super+'"],
+    "command": "bh_async_key",
+    "args": {
+      "lines": true,
+      "no_outside_adj": null,
+      "plugin": {
+        "command": "bh_modules.bracketselect",
+        "type": ["__all__"]
+      }
+    }
+  },
+  {
+    "keys": ["super+shift+'"],
+    "command": "bh_async_key",
+    "args": {
+      "lines": true,
+      "no_outside_adj": null,
+      "plugin": {
+        "args": {
+          "always_include_brackets": true
+        },
+        "command": "bh_modules.bracketselect",
+        "type": ["__all__"]
+      }
+    }
+  },
+  {
     "keys": ["'"],
     "command": "insert_snippet",
     "args": {
