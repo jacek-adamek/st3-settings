@@ -42,6 +42,7 @@
     "Puppet"                : ["puppet"],
     "Python"                : ["python", "django", "twisted", "sphinx", "flask", "tornado", "sqlalchemy", "numpy", "scipy", "salt", "cvp"],
     "R"                     : ["r"],
+    "Racket"                : ["racket"],
     "Ruby"                  : ["ruby", "rubygems", "rails"],
     "Ruby on Rails"         : ["ruby", "rubygems", "rails"],
     "(HTML) Rails"          : ["ruby", "rubygems", "rails", "html", "svg", "css", "bootstrap", "foundation", "awesome", "statamic", "javascript", "jquery", "jqueryui", "jquerym", "angularjs", "backbone", "marionette", "meteor", "moo", "prototype", "ember", "lodash", "underscore", "sencha", "extjs", "knockout", "zepto", "cordova", "phonegap", "yui"],
