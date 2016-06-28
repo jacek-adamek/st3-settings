@@ -8,7 +8,7 @@
     "C99"                   : ["c", "glib", "gl2", "gl3", "gl4", "manpages"],
     "C++"                   : ["cpp", "net", "boost", "qt", "cvcpp", "cocos2dx", "c", "manpages"],
     "C++11"                 : ["cpp", "net", "boost", "qt", "cvcpp", "cocos2dx", "c", "manpages"],
-    "Clojure"               : ["clojure"],
+    "Clojure"               : ["clojure", "java8"],
     "CoffeeScript"          : ["coffee", "javascript", "underscore", "jquery", "jqueryui", "angularjs"],
     "ColdFusion"            : ["cf"],
     "CSS"                   : ["css", "bootstrap", "foundation", "less", "awesome", "cordova", "phonegap"],
