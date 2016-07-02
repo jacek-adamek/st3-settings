@@ -189,7 +189,7 @@
       {
         "key": "selector",
         "operator": "equal",
-        "operand": "source.racket"
+        "operand": "source.scheme"
       }
     ]
   },
@@ -214,7 +214,7 @@
       {
         "key": "selector",
         "operator": "equal",
-        "operand": "source.racket"
+        "operand": "source.scheme"
       }
     ]
   },
@@ -242,7 +242,7 @@
       {
         "key": "selector",
         "operator": "equal",
-        "operand": "source.racket"
+        "operand": "source.scheme"
       }
     ]
   }
