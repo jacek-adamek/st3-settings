@@ -1,3 +1,9 @@
 {
-  "tab_size": 4
+  "color_scheme": "Packages/Color Themes/Atom Dark.tmTheme",
+	"extensions":
+	[
+		"c"
+	],
+	"tab_size": 4
 }
+
