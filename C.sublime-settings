@@ -1,9 +1,9 @@
 {
-  "color_scheme": "Packages/Color Themes/Atom Dark.tmTheme",
+	"color_scheme": "Packages/Color Themes/Atom Dark.tmTheme",
 	"extensions":
 	[
-		"c"
+		"c",
+		"h",
 	],
 	"tab_size": 4
 }
-
