@@ -1,0 +1,23 @@
+{
+  "cmd": ["bundle"],
+  "working_dir": "${folder}",
+  "selector": "",
+  "variants": [
+    {
+      "cmd": ["bundle", "exec", "rspec", "$file"],
+      "name": "bundle exec rspec file"
+    },
+    {
+      "cmd": ["bundle", "exec", "rspec"],
+      "name": "bundle exec rspec all"
+    },
+    {
+      "cmd": ["bundle", "exec", "rubocop", "-aR", "$file"],
+      "name": "bundle exec rubocop -aR file"
+    },
+    {
+      "cmd": ["bundle", "exec", "rubocop", "-aR"],
+      "name": "bundle exec rubocop -aR all"
+    }
+  ]
+}
