@@ -1,4 +1,5 @@
 {
+	"color_scheme": "Packages/Color Themes/One Dark.tmTheme",
 	"extensions":
 	[
 		"cpp",
@@ -11,5 +12,6 @@
 		"h++",
 		"inl",
 		"ipp"
-	]
+	],
+  "tab_size": 4
 }
