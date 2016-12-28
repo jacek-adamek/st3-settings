@@ -50,6 +50,7 @@
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-rubocop",
+		"SublimeManpage",
 		"SublimeREPL"
 	]
 }
