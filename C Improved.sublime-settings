@@ -2,6 +2,8 @@
 	"color_scheme": "Packages/Color Themes/Atom Dark.tmTheme",
 	"extensions":
 	[
+		"c",
+		"h",
 	],
 	"tab_size": 4
 }
