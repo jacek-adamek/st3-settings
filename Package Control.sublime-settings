@@ -40,7 +40,6 @@
 		"Pug",
 		"Rails Migrations List",
 		"RSpec",
-		"Ruby on Rails snippets",
 		"Ruby Slim",
 		"RubyTest",
 		"Sass",
@@ -49,6 +48,7 @@
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-contrib-eslint",
+		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
 		"SublimeManpage",
 		"SublimeREPL"
