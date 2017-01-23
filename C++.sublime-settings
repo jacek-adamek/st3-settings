@@ -2,10 +2,12 @@
 	"color_scheme": "Packages/Color Themes/One Dark C++.tmTheme",
 	"extensions":
 	[
+    "c",
 		"cpp",
 		"cc",
 		"cxx",
 		"c++",
+    "h",
 		"hpp",
 		"hxx",
 		"h++",
