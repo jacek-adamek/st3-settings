@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AceJump",
 		"AdvancedNewFile",
 		"AlignTab",
 		"All Autocomplete",
@@ -16,7 +17,6 @@
 		"Cucumber",
 		"DashDoc",
 		"Djaneiro",
-		"EasyMotion",
 		"EJS 2",
 		"Elixir",
 		"Enhanced Clojure",
@@ -48,6 +48,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-contrib-elixirc",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
