@@ -1,7 +1,7 @@
 {
   // "check_for_rbenv": true,
-  "run_rspec_command": "bin/rspec --no-color {relative_path}",
-  "run_single_rspec_command": "bin/rspec --no-color {relative_path}:{line_number}",
+  "run_rspec_command": "zeus rspec --no-color {relative_path}",
+  "run_single_rspec_command": "zeus rspec --no-color {relative_path}:{line_number}",
   "run_ruby_unit_command": "bundle exec rake test {relative_path}",
   "run_single_ruby_unit_command": "bundle exec rake test {relative_path} {test_name}"
 }
