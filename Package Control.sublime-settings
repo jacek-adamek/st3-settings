@@ -49,6 +49,7 @@
 		"SCSS",
 		"SideBarEnhancements",
 		"SublimeLinter",
+		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-eslint",
 		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
