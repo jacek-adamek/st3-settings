@@ -30,6 +30,15 @@
     "keys": ["super+;"],
     "command": "ace_jump_char"
   },
+  { "keys": ["ctrl+,", "t"], "command": "clojure_repl_extensions", "args": {"command": "run-tests" }},
+  { "keys": ["ctrl+,", "T"], "command": "clojure_repl_extensions", "args": {"command": "run-all-tests" }},
+  { "keys": ["ctrl+,", "e"], "command": "clojure_repl_extensions", "args": {"command": "exit" }},
+  { "keys": ["ctrl+,", "n"], "command": "clojure_repl_extensions", "args": {"command": "switch-namespace" }},
+  { "keys": ["ctrl+,", "r"], "command": "clojure_repl_extensions", "args": {"command": "reload" }},
+  { "keys": ["ctrl+,", "R"], "command": "clojure_repl_extensions", "args": {"command": "reload-all" }},
+  { "keys": ["ctrl+,", "d"], "command": "clojure_repl_extensions", "args": {"command": "doc" }},
+  { "keys": ["ctrl+,", "D"], "command": "clojure_repl_extensions", "args": {"command": "source" }},
+  { "keys": ["ctrl+,", "i"], "command": "clojure_repl_extensions", "args": {"command": "dir" }},
   // Clojure
   {
     "keys": ["'"],
