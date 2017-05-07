@@ -24,7 +24,7 @@
         "command": "bh_modules.bracketselect",
         "type": ["__all__"]
       }
-    }
+      }
   },
   {
     "keys": ["super+;"],
@@ -34,11 +34,16 @@
   { "keys": ["ctrl+,", "T"], "command": "clojure_repl_extensions", "args": {"command": "run-all-tests" }},
   { "keys": ["ctrl+,", "e"], "command": "clojure_repl_extensions", "args": {"command": "exit" }},
   { "keys": ["ctrl+,", "n"], "command": "clojure_repl_extensions", "args": {"command": "switch-namespace" }},
+  { "keys": ["ctrl+,", "u"], "command": "clojure_repl_extensions", "args": {"command": "switch-to-user-namespace" }},
   { "keys": ["ctrl+,", "r"], "command": "clojure_repl_extensions", "args": {"command": "reload" }},
   { "keys": ["ctrl+,", "R"], "command": "clojure_repl_extensions", "args": {"command": "reload-all" }},
   { "keys": ["ctrl+,", "d"], "command": "clojure_repl_extensions", "args": {"command": "doc" }},
   { "keys": ["ctrl+,", "D"], "command": "clojure_repl_extensions", "args": {"command": "source" }},
   { "keys": ["ctrl+,", "i"], "command": "clojure_repl_extensions", "args": {"command": "dir" }},
+  { "keys": ["ctrl+,", "h"], "command": "clojure_repl_extensions", "args": {"command": "require-repl" }},
+  { "keys": ["ctrl+,", "m"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand-1" }},
+  { "keys": ["ctrl+,", "M"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand" }},
+  { "keys": ["ctrl+,", "a"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand-all" }},
   // Clojure
   {
     "keys": ["'"],

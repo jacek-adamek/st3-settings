@@ -26,10 +26,20 @@ class ClojureReplExtensionsCommand(text_transfer.ReplTransferCurrent):
             text = self.run_source()
         elif command == "dir":
             text = self.run_dir()
+        elif command == 'require-repl':
+            text = self.run_require_repl()
+        elif command == 'macroexpand-1':
+            text = self.run_macroexpand_1()
+        elif command == 'macroexpand':
+            text = self.run_macroexpand()
+        elif command == 'macroexpand-all':
+            text = self.run_macroexpand_all()
 
         self.send_to_repl(text)
         if command == "switch-namespace":
             self.copy_to_repl(self.run_in_ns())
+        elif command == "switch-to-user-namespace":
+            self.copy_to_repl(self.run_in_ns('user'))
 
     def send_to_repl(self, text):
         cmd = 'repl_send'
@@ -76,8 +86,9 @@ class ClojureReplExtensionsCommand(text_transfer.ReplTransferCurrent):
             return
         return "(require '{ns})".format(ns=ns)
 
-    def run_in_ns(self):
-        ns = self.current_namespace(search_in_repl=False)
+    def run_in_ns(self, ns = None):
+        if not ns:
+            ns = self.current_namespace(search_in_repl=False)
         if not ns:
             return
         return "(in-ns '{ns})".format(ns=ns)
@@ -119,6 +130,29 @@ class ClojureReplExtensionsCommand(text_transfer.ReplTransferCurrent):
         (println "{divider}")
         (clojure.repl/dir {ns})
         """.format(ns=ns, divider=DIVIDER)
+
+    def run_require_repl(self):
+        return """
+        (clojure.core/use 'clojure.repl)
+        """
+
+    def run_macroexpand_1(self):
+        form = self.selected_blocks()
+        return """
+        (clojure.core/macroexpand-1 '{form})
+        """.format(form=form)
+
+    def run_macroexpand(self):
+        form = self.selected_blocks()
+        return """
+        (clojure.core/macroexpand '{form})
+        """.format(form=form)
+
+    def run_macroexpand_all(self):
+        form = self.selected_blocks()
+        return """
+        (clojure.walk/macroexpand-all '{form})
+        """.format(form=form)
 
     def current_namespace(self, search_in_repl=True):
         file_text = self.selected_file()
