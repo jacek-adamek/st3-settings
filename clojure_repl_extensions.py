@@ -26,8 +26,8 @@ class ClojureReplExtensionsCommand(text_transfer.ReplTransferCurrent):
             text = self.run_source()
         elif command == "dir":
             text = self.run_dir()
-        elif command == 'require-repl':
-            text = self.run_require_repl()
+        elif command == 'require-core-repl':
+            text = self.run_require_core_repl()
         elif command == 'macroexpand-1':
             text = self.run_macroexpand_1()
         elif command == 'macroexpand':
@@ -131,8 +131,9 @@ class ClojureReplExtensionsCommand(text_transfer.ReplTransferCurrent):
         (clojure.repl/dir {ns})
         """.format(ns=ns, divider=DIVIDER)
 
-    def run_require_repl(self):
+    def run_require_core_repl(self):
         return """
+        (clojure.core/use 'clojure.core)
         (clojure.core/use 'clojure.repl)
         """
 

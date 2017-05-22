@@ -40,7 +40,7 @@
   { "keys": ["ctrl+,", "d"], "command": "clojure_repl_extensions", "args": {"command": "doc" }},
   { "keys": ["ctrl+,", "D"], "command": "clojure_repl_extensions", "args": {"command": "source" }},
   { "keys": ["ctrl+,", "i"], "command": "clojure_repl_extensions", "args": {"command": "dir" }},
-  { "keys": ["ctrl+,", "h"], "command": "clojure_repl_extensions", "args": {"command": "require-repl" }},
+  { "keys": ["ctrl+,", "h"], "command": "clojure_repl_extensions", "args": {"command": "require-core-repl" }},
   { "keys": ["ctrl+,", "m"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand-1" }},
   { "keys": ["ctrl+,", "M"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand" }},
   { "keys": ["ctrl+,", "a"], "command": "clojure_repl_extensions", "args": {"command": "macroexpand-all" }},
