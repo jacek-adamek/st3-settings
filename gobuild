@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-$GOPATH/bin/goimports -w "$@"
+
+find "$@" -name '*.go' -type f -not -path '*vendor*' -exec $GOPATH/bin/goimports -w {} +
 go build "$@"
-if [[ $? == 0 ]]; then
-  gofmt -w "$@"
-fi
+find "$@" -name '*.go' -type f -not -path '*vendor*' -exec gofmt -w {} +
