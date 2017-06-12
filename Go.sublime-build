@@ -1,0 +1,52 @@
+{
+  "cmd": ["go", "run", "${file_name}"],
+  "working_dir": "${file_path}",
+  "selector": "source.go",
+  "variants": [
+    {
+      "cmd": ["gobuild", "${file_name}"],
+      "name": "go build file",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["gobuild", "."],
+      "name": "go build dir",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["gobuild", "."],
+      "name": "go build all",
+      "working_dir": "${folder}",
+    },
+    {
+      "cmd": ["go", "test", "${file_name}"],
+      "name": "go test file",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["go", "test"],
+      "name": "go test dir",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["go", "test"],
+      "name": "go test all",
+      "working_dir": "${folder}",
+    },
+    {
+      "cmd": ["gofmt", "-w", "${file_name}"],
+      "name": "gofmt file",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["gofmt", "-w", "."],
+      "name": "gofmt dir",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["gofmt", "-w", "."],
+      "name": "gofmt all",
+      "working_dir": "${folder}",
+    }
+  ]
+}

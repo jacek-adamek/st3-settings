@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+$GOPATH/bin/goimports -w "$@"
+go build "$@"
+if [[ $? == 0 ]]; then
+  gofmt -w "$@"
+fi
