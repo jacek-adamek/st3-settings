@@ -25,17 +25,17 @@
     },
     {
       "cmd": ["gofmt", "-w", "${file_name}"],
-      "name": "gofmt file",
+      "name": "fmt file",
       "working_dir": "${file_path}",
     },
     {
       "cmd": ["gofmt", "-w", "."],
-      "name": "gofmt package",
+      "name": "fmt package",
       "working_dir": "${file_path}",
     },
     {
       "cmd": ["gofmt", "-w", "."],
-      "name": "gofmt all",
+      "name": "fmt all",
       "working_dir": "${folder}",
     },
     {
