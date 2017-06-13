@@ -37,6 +37,21 @@
       "cmd": ["gofmt", "-w", "."],
       "name": "gofmt all",
       "working_dir": "${folder}",
+    },
+    {
+      "cmd": ["golint", "${file_name}"],
+      "name": "lint file",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["golint", "."],
+      "name": "lint package",
+      "working_dir": "${file_path}",
+    },
+    {
+      "cmd": ["golint", "."],
+      "name": "lint all",
+      "working_dir": "${folder}",
     }
   ]
 }
