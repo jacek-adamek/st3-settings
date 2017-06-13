@@ -5,27 +5,22 @@
   "variants": [
     {
       "cmd": ["gobuild", "."],
-      "name": "go build package",
+      "name": "build package",
       "working_dir": "${file_path}",
     },
     {
       "cmd": ["gobuild", "."],
-      "name": "go build all",
+      "name": "build all",
       "working_dir": "${folder}",
     },
     {
-      "cmd": ["go", "test", "${file_name}"],
-      "name": "go test file",
+      "cmd": ["go", "test"],
+      "name": "test package",
       "working_dir": "${file_path}",
     },
     {
       "cmd": ["go", "test"],
-      "name": "go test package",
-      "working_dir": "${file_path}",
-    },
-    {
-      "cmd": ["go", "test"],
-      "name": "go test all",
+      "name": "test all",
       "working_dir": "${folder}",
     },
     {
