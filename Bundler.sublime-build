@@ -1,7 +1,7 @@
 {
   "cmd": ["bundle"],
   "working_dir": "${folder}",
-  "selector": "",
+  "selector": "source.ruby",
   "variants": [
     {
       "cmd": ["bundle", "exec", "rspec", "$file"],
