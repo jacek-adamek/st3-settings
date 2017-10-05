@@ -1,4 +1,7 @@
 [
+  { "keys": ["ctrl+h"], "command": "dash_doc"},
+  { "keys": ["ctrl+alt+h"], "command": "dash_doc",
+                            "args": { "flip_syntax_sensitive": true } },
   {
     "keys": ["super+'"],
     "command": "bh_async_key",
