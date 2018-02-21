@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>content</key>
-  <string>IO.inspect $0</string>
+  <string>IO.inspect($0)</string>
   <key>name</key>
   <string>inspect</string>
   <key>scope</key>

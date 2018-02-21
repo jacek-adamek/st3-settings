@@ -1,3 +1,4 @@
 {
-  "color_scheme": "Packages/Color Themes/One Dark Elixir.tmTheme"
+  "color_scheme": "Packages/Color Themes/One Dark Elixir.tmTheme",
+  "mix_format_on_save": true
 }
