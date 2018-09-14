@@ -1,0 +1,12 @@
+{
+  "cmd": ["cargo", "build"],
+  "working_dir": "${folder}",
+  "selector": "source.rust",
+  "variants": [
+    {
+      "cmd": ["cargo", "fmt"],
+      "name": "Fmt",
+      "working_dir": "${folder}",
+    }
+  ]
+}
