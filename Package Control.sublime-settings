@@ -34,7 +34,7 @@
 		"JavaScript & NodeJS Snippets",
 		"JSON Reindent",
 		"lispindent",
-		"Markdown Preview",
+		"MarkdownPreview",
 		"nginx",
 		"Package Control",
 		"paredit",
@@ -57,6 +57,7 @@
 		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
 		"SublimeManpage",
-		"SublimeREPL"
+		"SublimeREPL",
+		"TOML"
 	]
 }
