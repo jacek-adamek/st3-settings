@@ -31,7 +31,7 @@
 		"vendor/*"
 	],
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/User/SublimeLinter/Railscasts (SL).tmTheme",
+	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"font_face": "DejaVu Sans Mono",
@@ -51,7 +51,8 @@
 	"remember_open_files": false,
 	"rulers":
 	[
-		100
+		100,
+		120
 	],
 	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
