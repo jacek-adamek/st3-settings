@@ -1,5 +1,23 @@
 {
 	"bootstrapped": true,
+	"downloader_precedence":
+	{
+		"linux":
+		[
+			"urllib",
+			"curl",
+			"wget"
+		],
+		"osx":
+		[
+			"curl",
+			"urllib"
+		],
+		"windows":
+		[
+			"wininet"
+		]
+	},
 	"in_process_packages":
 	[
 	],
@@ -28,6 +46,7 @@
 		"GitHubinator",
 		"Haml",
 		"Handlebars",
+		"Highlight",
 		"HTML5",
 		"HTMLAttributes",
 		"Jade",
@@ -57,7 +76,7 @@
 		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
 		"SublimeManpage",
-		"SublimeREPL",
+		"Theme - Legacy",
 		"TOML"
 	]
 }
