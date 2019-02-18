@@ -37,7 +37,6 @@
 		"Djaneiro",
 		"Dockerfile Syntax Highlighting",
 		"EJS 2",
-		"Elixir",
 		"Enhanced Clojure",
 		"FindKeyConflicts",
 		"GAS-x86 (or x64) highlighting scheme",
@@ -77,6 +76,7 @@
 		"SublimeLinter-rubocop",
 		"SublimeManpage",
 		"Theme - Legacy",
-		"TOML"
+		"TOML",
+		"YAML Nav"
 	]
 }
