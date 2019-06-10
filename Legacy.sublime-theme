@@ -22,6 +22,6 @@
   },
   {
     "class": "status_bar",
-    "content_margin": [0, -3, 0, -3]
+    "content_margin": [0, -2, 0, -2]
   }
 ]
