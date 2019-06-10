@@ -19,5 +19,9 @@
     "class": "sidebar_label",
     "color": [0, 0, 0],
     "font.size": 12
+  },
+  {
+    "class": "status_bar",
+    "content_margin": [0, -3, 0, -3]
   }
 ]
