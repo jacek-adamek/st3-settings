@@ -12,12 +12,12 @@
       "name": "bundle exec rspec all"
     },
     {
-      "cmd": ["bundle", "exec", "rubocop", "-aR", "$file"],
-      "name": "bundle exec rubocop -aR file"
+      "cmd": ["bundle", "exec", "rubocop", "-a", "--require", "rubocop-rails", "$file"],
+      "name": "bundle exec rubocop -a -rails file"
     },
     {
-      "cmd": ["bundle", "exec", "rubocop", "-aR"],
-      "name": "bundle exec rubocop -aR all"
+      "cmd": ["bundle", "exec", "rubocop", "-a", "$file"],
+      "name": "bundle exec rubocop -a file"
     }
   ]
 }
