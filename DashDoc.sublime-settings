@@ -51,6 +51,7 @@
     "(SQL) Rails"           : ["ruby", "rubygems", "rails"],
     "Ruby Haml"             : ["haml"],
     "Rust"                  : ["rust"],
+    "RustEnhanced"          : ["rust"],
     "Sass"                  : ["sass", "compass", "bourbon", "neat", "css"],
     "Scala"                 : ["scala", "akka", "playscala", "scaladoc"],
     "Shell-Unix-Generic"    : ["bash", "manpages"],

@@ -38,11 +38,12 @@
 	"font_options":
 	[
 	],
-	"font_size": 15,
+	"font_size": 14,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
+		"Rust",
 		"Vintage"
 	],
 	"line_padding_bottom": 0,
