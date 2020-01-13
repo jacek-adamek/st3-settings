@@ -27,8 +27,7 @@
 		"priv/static/*",
 		"priv/repo/migrations/*",
 		"target/*",
-		"tmp/*",
-		"vendor/*"
+		"tmp/*"
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
@@ -38,7 +37,7 @@
 	"font_options":
 	[
 	],
-	"font_size": 14,
+	"font_size": 15,
 	"highlight_line": true,
 	"hot_exit": false,
 	"ignored_packages":
