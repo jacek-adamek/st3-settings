@@ -1,0 +1,22 @@
+{
+	"clients":
+	{
+		"elixir-ls":
+		{
+			"command":
+			[
+				"/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
+			],
+			"enabled": true,
+			"languageId": "elixir",
+			"scopes":
+			[
+				"source.elixir"
+			],
+			"syntaxes":
+			[
+				"Packages/Elixir/Syntaxes/Elixir.tmLanguage"
+			]
+		}
+	}
+}
