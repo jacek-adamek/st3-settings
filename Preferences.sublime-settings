@@ -55,7 +55,7 @@
 		100,
 		120
 	],
-	"show_git_status": false,
+	"show_git_status": true,
 	"tab_size": 2,
 	"theme": "Legacy.sublime-theme",
 	"translate_tabs_to_spaces": true,

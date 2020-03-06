@@ -17,6 +17,30 @@
 			[
 				"Packages/Elixir/Syntaxes/Elixir.tmLanguage"
 			]
+		},
+		"rust-analyzer":
+		{
+			"command":
+			[
+				"rust-analyzer"
+			],
+			"enabled": true,
+			"initializationOptions":
+			{
+				"featureFlags":
+				{
+				}
+			},
+			"languageId": "rust",
+			"scopes":
+			[
+				"source.rust"
+			],
+			"syntaxes":
+			[
+				"Packages/Rust/Rust.sublime-syntax",
+				"Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+			]
 		}
 	}
 }
