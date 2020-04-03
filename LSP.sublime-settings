@@ -18,6 +18,17 @@
 				"Packages/Elixir/Syntaxes/Elixir.tmLanguage"
 			]
 		},
+		"gopls":
+		{
+			"enabled": true,
+			"command": ["gopls"],
+      "scopes": ["source.go"],
+      "syntaxes": [
+        "Packages/Go/Go.sublime-syntax",
+        "Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax",
+      ],
+      "languageId": "go"
+		},
 		"rust-analyzer":
 		{
 			"command":
