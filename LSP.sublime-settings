@@ -1,57 +1,96 @@
 {
-	"clients":
-	{
-		"elixir-ls":
-		{
-			"command":
-			[
-				"/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
-			],
-			"enabled": true,
-			"languageId": "elixir",
-			"scopes":
-			[
-				"source.elixir"
-			],
-			"syntaxes":
-			[
-				"Packages/Elixir/Syntaxes/Elixir.tmLanguage"
-			]
-		},
-		"gopls":
-		{
-			"enabled": true,
-			"command": ["gopls"],
-      "scopes": ["source.go"],
+  "clients": {
+    "elixir-ls": {
+      "command": [
+        "/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
+      ],
+      "enabled": true,
+      "languageId": "elixir",
+      "scopes": [
+        "source.elixir"
+      ],
+      "syntaxes": [
+        "Packages/Elixir/Syntaxes/Elixir.tmLanguage"
+      ]
+    },
+    "gopls": {
+      "enabled": true,
+      "command": [
+        "gopls"
+      ],
+      "scopes": [
+        "source.go"
+      ],
       "syntaxes": [
         "Packages/Go/Go.sublime-syntax",
-        "Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax",
+        "Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax"
       ],
       "languageId": "go"
-		},
-		"rust-analyzer":
-		{
-			"command":
-			[
-				"rust-analyzer"
-			],
-			"enabled": true,
-			"initializationOptions":
-			{
-				"featureFlags":
-				{
-				}
-			},
-			"languageId": "rust",
-			"scopes":
-			[
-				"source.rust"
-			],
-			"syntaxes":
-			[
-				"Packages/Rust/Rust.sublime-syntax",
-				"Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
-			]
-		}
-	}
+    },
+    "rust-analyzer": {
+      "command": [
+        "rust-analyzer"
+      ],
+      "enabled": true,
+      "initializationOptions": {
+        "featureFlags": {}
+      },
+      "languageId": "rust",
+      "scopes": [
+        "source.rust"
+      ],
+      "syntaxes": [
+        "Packages/Rust/Rust.sublime-syntax",
+        "Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+      ]
+    },
+    "javascript-typescript-langserver": {
+      "command": [
+        "javascript-typescript-stdio"
+      ],
+      "enabled": true,
+      "languages": [
+        {
+          "scopes": [
+            "source.js"
+          ],
+          "syntaxes": [
+            "Packages/Babel/JavaScript (Babel).sublime-syntax",
+            "Packages/JavaScript/JavaScript.sublime-syntax"
+          ],
+          "languageId": "javascript"
+        },
+        {
+          "scopes": [
+            "source.jsx"
+          ],
+          "syntaxes": [
+            "Packages/Babel/JavaScript (Babel).sublime-syntax",
+            "Packages/JavaScript/JavaScript.sublime-syntax"
+          ],
+          "languageId": "javascriptreact"
+        },
+        {
+          "scopes": [
+            "source.ts"
+          ],
+          "syntaxes": [
+            "Packages/TypeScript-TmLanguage/TypeScript.tmLanguage",
+            "Packages/TypeScript Syntax/TypeScript.tmLanguage"
+          ],
+          "languageId": "typescript"
+        },
+        {
+          "scopes": [
+            "source.tsx"
+          ],
+          "syntaxes": [
+            "Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage",
+            "Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
+          ],
+          "languageId": "typescriptreact"
+        }
+      ]
+    }
+  }
 }
