@@ -11,3 +11,4 @@ RubyTest.last-run
 *.cache
 .DS_Store
 SublimeLinter/
+Projects/
