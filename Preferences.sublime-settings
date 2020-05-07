@@ -30,6 +30,7 @@
 		"tmp/*"
 	],
 	"bold_folder_labels": true,
+	"close_windows_when_empty": false,
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
