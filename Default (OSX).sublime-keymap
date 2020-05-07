@@ -34,19 +34,39 @@
     "command": "ace_jump_char"
   },
   {
-    "keys": ["ctrl+]"],
+    "keys": ["ctrl+alt+j", "ctrl+alt+j"],
     "command": "lsp_symbol_definition"
   },
   {
-    "keys": ["ctrl+["],
+    "keys": ["ctrl+alt+j", "ctrl+alt+b"],
     "command": "jump_back"
   },
   {
-    "keys": ["ctrl+shift+]"],
+    "keys": ["ctrl+alt+j", "ctrl+alt+t"],
     "command": "lsp_symbol_type_definition"
   },
   {
-    "keys": ["ctrl+shift+["],
+    "keys": ["ctrl+alt+j", "ctrl+alt+r"],
     "command": "lsp_symbol_references"
+  },
+  {
+    "keys": ["ctrl+alt+h"],
+    "command": "lsp_hover"
+  },
+  {
+    "keys": ["ctrl+alt+l"],
+    "command": "show_at_center"
+  },
+  {
+    "keys": ["ctrl+alt+m", "ctrl+alt+m"],
+    "command": "sublime_merge_open_repo"
+  },
+  {
+    "keys": ["ctrl+alt+m", "ctrl+alt+b"],
+    "command": "sublime_merge_blame_file"
+  },
+  {
+    "keys": ["ctrl+alt+m", "ctrl+alt+h"],
+    "command": "sublime_merge_file_history"
   }
 ]
