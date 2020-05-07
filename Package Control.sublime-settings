@@ -57,6 +57,7 @@
 		"paredit",
 		"Parinfer",
 		"PostgreSQL Syntax Highlighting",
+		"ProjectManager",
 		"Protobuf Syntax Hightlighting",
 		"Pug",
 		"Rails Migrations List",
@@ -72,13 +73,12 @@
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
 		"SublimeLinter-eslint",
-		"SublimeLinter-flow",
 		"SublimeLinter-rubocop",
 		"SublimeLinter-tslint",
 		"SublimeManpage",
 		"Theme - Legacy",
 		"TOML",
 		"TypeScript Syntax",
-		"YAML Nav"
+		"Vue Syntax Highlight"
 	]
 }
