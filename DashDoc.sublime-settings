@@ -14,7 +14,7 @@
     "ColdFusion"            : ["cf"],
     "CSS"                   : ["css", "bootstrap", "foundation", "less", "awesome", "cordova", "phonegap"],
     "Dart"                  : ["dartlang", "polymerdart", "angulardart"],
-    "Elixir"                : ["elixir", "hex"],
+    "Elixir"                : ["elixir", "hex", "erlang"],
     "HTML (EEx)"            : ["elixir", "hex"],
     "Erlang"                : ["erlang"],
     "Go"                    : ["go", "godoc"],
