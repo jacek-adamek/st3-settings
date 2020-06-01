@@ -1,4 +1,8 @@
 {
-  "color_scheme": "Packages/Color Themes/Tomorrow Night - Bright.tmTheme",
-  "tab_size": 4
+	"color_scheme": "Packages/Color Themes/Tomorrow Night - Bright.tmTheme",
+	"extensions":
+	[
+		"app"
+	],
+	"tab_size": 4
 }
