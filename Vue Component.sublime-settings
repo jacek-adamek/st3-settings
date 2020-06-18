@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the Vue Component syntax
+{
+  "color_scheme": "Packages/Color Themes/Oceanic Next.tmTheme"
+}
