@@ -74,5 +74,9 @@
   {
     "keys": ["ctrl+alt+m", "ctrl+alt+h"],
     "command": "sublime_merge_file_history"
+  },
+  {
+    "keys": ["ctrl+alt+m", "ctrl+alt+l"],
+    "command": "sublime_merge_line_history"
   }
 ]
