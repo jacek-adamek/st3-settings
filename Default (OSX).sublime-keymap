@@ -53,6 +53,12 @@
     "keys": ["ctrl+alt+h"],
     "command": "lsp_hover"
   },
+
+  {
+    "keys": ["super+r"],
+    "command": "lsp_document_symbols",
+    "context": [{"key": "setting.lsp_active"}]
+  },
   {
     "keys": ["ctrl+alt+l"],
     "command": "show_at_center"
