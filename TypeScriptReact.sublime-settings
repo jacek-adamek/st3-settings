@@ -1,0 +1,4 @@
+// These settings override both User and Default settings for the TypeScriptReact syntax
+{
+  "color_scheme": "Packages/Color Themes/Oceanic Next.tmTheme",
+}
