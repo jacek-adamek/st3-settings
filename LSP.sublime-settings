@@ -36,28 +36,9 @@
 				"Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax"
 			]
 		},
-		"typescript-language-server":
+		"ruby":
 		{
-			"command": ["typescript-language-server", "--stdio"],
-			"enabled": true,
-			"languages": [{
-				"scopes": ["source.js"],
-				"syntaxes": ["Packages/Babel/JavaScript (Babel).sublime-syntax", "Packages/JavaScript/JavaScript.sublime-syntax"],
-				"languageId": "javascript"
-			}, {
-				"scopes": ["source.jsx"],
-				"syntaxes": ["Packages/Babel/JavaScript (Babel).sublime-syntax", "Packages/JavaScript/JavaScript.sublime-syntax"],
-				"languageId": "javascriptreact"
-			}, {
-				"scopes": ["source.ts"],
-				"syntaxes": ["Packages/TypeScript-TmLanguage/TypeScript.tmLanguage", "Packages/TypeScript Syntax/TypeScript.tmLanguage"],
-				"languageId": "typescript"
-			}, {
-				"scopes": ["source.tsx"],
-				"syntaxes": ["Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage", "Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"],
-				"languageId": "typescriptreact"
-			}
-		]
+			"enabled": true
 		},
 		"rust-analyzer":
 		{
@@ -81,6 +62,66 @@
 			[
 				"Packages/Rust/Rust.sublime-syntax",
 				"Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
+			]
+		},
+		"typescript-language-server":
+		{
+			"command":
+			[
+				"typescript-language-server",
+				"--stdio"
+			],
+			"enabled": true,
+			"languages":
+			[
+				{
+					"languageId": "javascript",
+					"scopes":
+					[
+						"source.js"
+					],
+					"syntaxes":
+					[
+						"Packages/Babel/JavaScript (Babel).sublime-syntax",
+						"Packages/JavaScript/JavaScript.sublime-syntax"
+					]
+				},
+				{
+					"languageId": "javascriptreact",
+					"scopes":
+					[
+						"source.jsx"
+					],
+					"syntaxes":
+					[
+						"Packages/Babel/JavaScript (Babel).sublime-syntax",
+						"Packages/JavaScript/JavaScript.sublime-syntax"
+					]
+				},
+				{
+					"languageId": "typescript",
+					"scopes":
+					[
+						"source.ts"
+					],
+					"syntaxes":
+					[
+						"Packages/TypeScript-TmLanguage/TypeScript.tmLanguage",
+						"Packages/TypeScript Syntax/TypeScript.tmLanguage"
+					]
+				},
+				{
+					"languageId": "typescriptreact",
+					"scopes":
+					[
+						"source.tsx"
+					],
+					"syntaxes":
+					[
+						"Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage",
+						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
+					]
+				}
 			]
 		}
 	}
