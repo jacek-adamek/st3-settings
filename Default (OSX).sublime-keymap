@@ -60,6 +60,16 @@
     "context": [{"key": "setting.lsp_active"}]
   },
   {
+    "keys": ["ctrl+alt+p"],
+    "command": "lsp_format_document",
+    "context": [{"key": "setting.lsp_active"}]
+  },
+  {
+    "keys": ["ctrl+alt+o"],
+    "command": "lsp_code_actions",
+    "context": [{"key": "setting.lsp_active"}]
+  },
+  {
     "keys": ["ctrl+alt+l"],
     "command": "show_at_center"
   },
