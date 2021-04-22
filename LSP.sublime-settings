@@ -36,10 +36,6 @@
 				"Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax"
 			]
 		},
-		"ruby":
-		{
-			"enabled": true
-		},
 		"rust-analyzer":
 		{
 			"command":
