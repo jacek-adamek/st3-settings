@@ -27,7 +27,8 @@
 		"priv/static/*",
 		"priv/repo/migrations/*",
 		"target/*",
-		"tmp/*"
+		"tmp/*",
+		"vendor/*"
 	],
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
