@@ -5,12 +5,12 @@
   "selector": "source.go",
   "variants": [
     {
-      "cmd": ["gobuild", "."],
+      "cmd": ["go", "build", "-v", "."],
       "name": "build package",
       "working_dir": "${file_path}",
     },
     {
-      "cmd": ["gobuild", "."],
+      "cmd": ["go", "build", "-v", "./..."],
       "name": "build all",
       "working_dir": "${folder}",
     },
@@ -53,6 +53,16 @@
       "cmd": ["golint", "."],
       "name": "lint all",
       "working_dir": "${folder}",
-    }
+    },
+    {
+      "cmd": ["golangci-lint", "run"],
+      "name": "golangci-lint",
+      "working_dir": "${folder}",
+    },
+    {
+      "cmd": ["goimports", "-w", "${file_name}"],
+      "name": "import",
+      "working_dir": "${file_path}",
+    },
   ]
 }
