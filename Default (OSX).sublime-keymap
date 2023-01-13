@@ -50,6 +50,10 @@
     "command": "lsp_symbol_references"
   },
   {
+    "keys": ["ctrl+alt+j", "ctrl+alt+i"],
+    "command": "lsp_symbol_implementation"
+  },
+  {
     "keys": ["ctrl+alt+h"],
     "command": "lsp_hover"
   },
