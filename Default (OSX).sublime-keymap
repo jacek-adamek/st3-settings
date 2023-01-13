@@ -92,5 +92,9 @@
   {
     "keys": ["ctrl+alt+m", "ctrl+alt+l"],
     "command": "sublime_merge_line_history"
+  },
+  {
+    "keys": ["alt+right"], "command": "move",
+    "args": {"by": "words", "forward": true}
   }
 ]
