@@ -22,10 +22,10 @@
 		"deps/*",
 		"dist/*",
 		"ebin/*",
+		".elixir_ls/*",
 		"jvm/*",
 		"node_modules/*",
 		"priv/static/*",
-		"priv/repo/migrations/*",
 		"target/*",
 		"tmp/*",
 		"vendor/*"
