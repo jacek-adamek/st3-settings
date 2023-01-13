@@ -48,6 +48,7 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 0,
+	"lsp_format_on_save": true,
 	"match_brackets": false,
 	"mini_diff": true,
 	"remember_open_files": false,
