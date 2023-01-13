@@ -27,6 +27,10 @@
     {
       "cmd": ["mix", "test", "$file"],
       "name": "mix test file"
+    },
+    {
+      "cmd": ["rm", "-rf", ".elixir_ls"],
+      "name": "delete elixir ls"
     }
   ]
 }
