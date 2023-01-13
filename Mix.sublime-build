@@ -22,11 +22,11 @@
     },
     {
       "cmd": ["mix", "test"],
-      "name": "mix test (all)"
+      "name": "mix test all"
     },
     {
       "cmd": ["mix", "test", "$file"],
-      "name": "mix test (file)"
+      "name": "mix test file"
     }
   ]
 }
