@@ -2,6 +2,7 @@
   "cmd": ["mix", "test", "$file"],
   "working_dir": "${folder}",
   "selector": "source.elixir",
+  "file_regex": "([a-zA-Z\/_.]+):([0-9]+)",
   "variants": [
     {
       "cmd": ["mix", "compile"],
