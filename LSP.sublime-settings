@@ -120,6 +120,29 @@
 					]
 				}
 			]
+		},
+		"css-languageserver":
+		{
+			"command":
+			[
+				"css-languageserver",
+				"--stdio"
+			],
+			"enabled": true,
+			"languages":
+			[
+				{
+					"languageId": "less",
+					"scopes":
+					[
+						"source.less"
+					],
+					"syntaxes":
+					[
+						"Packages/LESS/Syntaxes/LESS.sublime-syntax"
+					]
+				}
+			]
 		}
 	}
 }
