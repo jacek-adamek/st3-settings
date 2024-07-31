@@ -9,140 +9,40 @@
 				"/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
 			],
 			"enabled": true,
-			"languageId": "elixir",
-			"scopes":
-			[
-				"source.elixir"
-			],
-			"syntaxes":
-			[
-				"Packages/Elixir/Syntaxes/Elixir.tmLanguage"
-			]
+			"selector": "source.elixir"
 		},
 		"gopls":
 		{
-			"command":
-			[
-				"gopls"
-			],
+			"command": ["gopls"],
 			"enabled": true,
-			"languageId": "go",
-			"scopes":
-			[
-				"source.go"
-			],
-			"syntaxes":
-			[
-				"Packages/Go/Go.sublime-syntax",
-				"Packages/GoSublime/syntax/GoSublime-Go-Recommended.sublime-syntax"
-			]
+			"selector": "source.go",
 		},
 		"rust-analyzer":
 		{
-			"command":
-			[
-				"rust-analyzer"
-			],
+			"command": ["rust-analyzer"],
 			"enabled": true,
-			"initializationOptions":
-			{
-				"featureFlags":
-				{
-				}
-			},
-			"languageId": "rust",
-			"scopes":
-			[
-				"source.rust"
-			],
-			"syntaxes":
-			[
-				"Packages/Rust/Rust.sublime-syntax",
-				"Packages/Rust Enhanced/RustEnhanced.sublime-syntax"
-			]
+			"selector": "source.rust"
 		},
 		"typescript-language-server":
 		{
-			"command":
-			[
-				"typescript-language-server",
-				"--stdio"
-			],
+			"command": ["typescript-language-server", "--stdio"],
 			"enabled": true,
-			"languages":
-			[
-				{
-					"languageId": "javascript",
-					"scopes":
-					[
-						"source.js"
-					],
-					"syntaxes":
-					[
-						"Packages/Babel/JavaScript (Babel).sublime-syntax",
-						"Packages/JavaScript/JavaScript.sublime-syntax"
-					]
-				},
-				{
-					"languageId": "javascriptreact",
-					"scopes":
-					[
-						"source.jsx"
-					],
-					"syntaxes":
-					[
-						"Packages/Babel/JavaScript (Babel).sublime-syntax",
-						"Packages/JavaScript/JavaScript.sublime-syntax"
-					]
-				},
-				{
-					"languageId": "typescript",
-					"scopes":
-					[
-						"source.ts"
-					],
-					"syntaxes":
-					[
-						"Packages/TypeScript-TmLanguage/TypeScript.tmLanguage",
-						"Packages/TypeScript Syntax/TypeScript.tmLanguage"
-					]
-				},
-				{
-					"languageId": "typescriptreact",
-					"scopes":
-					[
-						"source.tsx"
-					],
-					"syntaxes":
-					[
-						"Packages/TypeScript-TmLanguage/TypeScriptReact.tmLanguage",
-						"Packages/TypeScript Syntax/TypeScriptReact.tmLanguage"
-					]
-				}
-			]
+      "selector": "source.js, source.ts, source.jsx, source.tsx"
 		},
 		"css-languageserver":
 		{
-			"command":
-			[
-				"css-languageserver",
-				"--stdio"
-			],
+			"command": ["css-languageserver", "--stdio" ],
 			"enabled": true,
-			"languages":
-			[
-				{
-					"languageId": "less",
-					"scopes":
-					[
-						"source.less"
-					],
-					"syntaxes":
-					[
-						"Packages/LESS/Syntaxes/LESS.sublime-syntax"
-					]
-				}
-			]
-		}
-	}
+			"selector": "source.less"
+		},
+		"ruby":
+		{
+      "enabled": true,
+      "command": ["solargraph", "stdio"],
+      "selector": "source.ruby | text.html.ruby",
+      "initializationOptions": {
+      	"diagnostics": false,
+      },
+    },
+	},
 }
