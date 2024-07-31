@@ -71,7 +71,6 @@
 		"Sass",
 		"Scheme",
 		"SCSS",
-		"SFTP",
 		"SideBarEnhancements",
 		"SublimeLinter",
 		"SublimeLinter-coffeelint",
@@ -81,7 +80,6 @@
 		"SublimeManpage",
 		"Theme - Legacy",
 		"TOML",
-		"TypeScript Syntax",
-		"Vue Syntax Highlight"
-	]
+		"Vue Syntax Highlight",
+	],
 }
