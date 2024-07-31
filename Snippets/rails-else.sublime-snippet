@@ -1,0 +1,12 @@
+<snippet>
+    <content>
+        <![CDATA[<% else %>
+  $1]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>el</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html.rails</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Add else</description>
+</snippet>

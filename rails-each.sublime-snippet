@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[<% ${1:items}.each do |${2:it}| %>
+  $3
+<% end %>]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ea</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html.rails</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>Iterate through collection</description>
+</snippet>
