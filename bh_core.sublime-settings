@@ -19,5 +19,7 @@
       "color": "brackethighlighter.square",
       "style": "solid"
     }
-  }
+  },
+  // Character threshold to search
+  "search_threshold": 10000,
 }
