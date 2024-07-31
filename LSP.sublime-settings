@@ -1,48 +1,48 @@
 {
-	"show_references_in_quick_panel": true,
-	"clients":
-	{
-		"elixir-ls":
-		{
-			"command":
-			[
-				"/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
-			],
-			"enabled": true,
-			"selector": "source.elixir"
-		},
-		"gopls":
-		{
-			"command": ["gopls"],
-			"enabled": true,
-			"selector": "source.go",
-		},
-		"rust-analyzer":
-		{
-			"command": ["rust-analyzer"],
-			"enabled": true,
-			"selector": "source.rust"
-		},
-		"typescript-language-server":
-		{
-			"command": ["typescript-language-server", "--stdio"],
-			"enabled": true,
+  "show_references_in_quick_panel": true,
+  "clients":
+  {
+    "elixir-ls":
+    {
+      "command":
+      [
+        "/Users/jacek/Projects/elixir/elixir-ls/release/language_server.sh"
+      ],
+      "enabled": true,
+      "selector": "source.elixir"
+    },
+    "gopls":
+    {
+      "command": ["gopls"],
+      "enabled": true,
+      "selector": "source.go",
+    },
+    "rust-analyzer":
+    {
+      "command": ["rust-analyzer"],
+      "enabled": true,
+      "selector": "source.rust"
+    },
+    "typescript-language-server":
+    {
+      "command": ["typescript-language-server", "--stdio"],
+      "enabled": true,
       "selector": "source.js, source.ts, source.jsx, source.tsx"
-		},
-		"css-languageserver":
-		{
-			"command": ["css-languageserver", "--stdio" ],
-			"enabled": true,
-			"selector": "source.less"
-		},
-		"ruby":
-		{
+    },
+    "css-languageserver":
+    {
+      "command": ["css-languageserver", "--stdio" ],
+      "enabled": true,
+      "selector": "source.less"
+    },
+    "ruby":
+    {
       "enabled": true,
       "command": ["solargraph", "stdio"],
       "selector": "source.ruby | text.html.ruby",
       "initializationOptions": {
-      	"diagnostics": false,
+        "diagnostics": false,
       },
     },
-	},
+  },
 }
