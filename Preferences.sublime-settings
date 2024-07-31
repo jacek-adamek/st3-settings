@@ -31,6 +31,7 @@
 		"vendor/*"
 	],
 	"bold_folder_labels": true,
+	"caret_style": "smooth",
 	"color_scheme": "Packages/Color Themes/Railscasts.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
@@ -44,7 +45,7 @@
 	"ignored_packages":
 	[
 		"Rust",
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 0,
@@ -64,5 +65,6 @@
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false,
 	"wide_caret": true,
-	"word_wrap": true
+	"word_wrap": true,
+	"index_files": true,
 }
