@@ -57,10 +57,14 @@
     "keys": ["ctrl+alt+h"],
     "command": "lsp_hover"
   },
-
   {
-    "keys": ["super+r"],
+    "keys": ["ctrl+alt+0"],
     "command": "lsp_document_symbols",
+    "context": [{"key": "setting.lsp_active"}]
+  },
+  {
+    "keys": ["ctrl+alt+9"],
+    "command": "lsp_workspace_symbols",
     "context": [{"key": "setting.lsp_active"}]
   },
   {
@@ -75,7 +79,8 @@
   },
   {
     "keys": ["ctrl+alt+l"],
-    "command": "show_at_center"
+    "command": "lsp_code_lens",
+    "context": [{"key": "setting.lsp_active"}]
   },
   {
     "keys": ["ctrl+alt+m", "ctrl+alt+m"],
