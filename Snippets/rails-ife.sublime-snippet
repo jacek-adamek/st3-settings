@@ -1,0 +1,15 @@
+<snippet>
+    <content>
+        <![CDATA[<% if $1 %>
+  $2
+<% else %>
+  $3
+<% end %>]]>
+    </content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>ife</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>text.html.rails</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description>If expression</description>
+</snippet>
